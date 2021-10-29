@@ -31,7 +31,7 @@ newStory = newStory.replace(':insertz:',zItem);
 
   if(customName.value !== '') {
     let name = customName.value;
-
+    newStory = newStory.replace('Bob',name)
   }
 
   if(document.getElementById("uk").checked) {
