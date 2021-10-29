@@ -20,6 +20,7 @@ const insertZ = [
 randomize.addEventListener('click', result);
 
 function result() {
+let newStory = storyText; 
 
   if(customName.value !== '') {
     let name = customName.value;
